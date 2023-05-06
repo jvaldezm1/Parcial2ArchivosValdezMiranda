@@ -1,3 +1,3 @@
 using namespace std;
 
-void crearArchivos1();
+void crearArchivos1(string directorio);
