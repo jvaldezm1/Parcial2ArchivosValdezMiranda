@@ -1,0 +1,3 @@
+C:/Users/miran/OneDrive/Escritorio/Parcial2ArchivosValdezMiranda/cmake-build-debug/CMakeFiles/Parcial2ArchivosValdezMiranda.dir
+C:/Users/miran/OneDrive/Escritorio/Parcial2ArchivosValdezMiranda/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/miran/OneDrive/Escritorio/Parcial2ArchivosValdezMiranda/cmake-build-debug/CMakeFiles/rebuild_cache.dir
