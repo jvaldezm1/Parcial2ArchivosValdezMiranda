@@ -1,6 +1,6 @@
 #include <iostream>
 #include <fstream>
-#include <filesystem>
+
 
 
 using namespace std;
@@ -15,7 +15,7 @@ void crearArchivos1(){//creacion de archivos pares
         cin >> cantidad;
         string extension = ".txt";
         string cambioNombre = "files";
-        string nuevoNombre = "files.txt";
+        string nuevoNombre = "files";
 
         for (i = 0; i < cantidad; i++) {
             ofstream file;
@@ -44,6 +44,9 @@ void crearArchivos1(){//creacion de archivos pares
 
 
 }
+
+
+
 
 
 
