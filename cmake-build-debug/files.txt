@@ -1,0 +1,1 @@
+Este es un nuevo texto que se agrega al final del archivo.
