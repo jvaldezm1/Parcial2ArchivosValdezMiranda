@@ -5,9 +5,9 @@ using namespace std;
 
 
 int main() {
-    crearArchivos1("C:\\Users\\miran\\OneDrive\\Documentos\\Par");
+    crearArchivos1();
     cout<<endl;
-    agregarTexto("C:\\Users\\miran\\OneDrive\\Documentos\\Par");
+    agregarTexto();
 
 
 

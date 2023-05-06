@@ -7,7 +7,7 @@ using namespace std;
 string texto;
 
 
-void crearArchivos1(string directorio){//creacion de archivos pares
+void crearArchivos1(){//creacion de archivos pares
 
         int cantidad;
     int i = cantidad;
@@ -19,7 +19,7 @@ void crearArchivos1(string directorio){//creacion de archivos pares
 
         for (i = 0; i < cantidad; i++) {
             ofstream file;
-            file.open(directorio + nuevoNombre + to_string(i) + ".txt");
+            file.open("C:\\Users\\miran\\OneDrive\\Documentos\\par" + nuevoNombre + to_string(i) + ".txt");
             file << "primera línea\n";
             file << "segunda línea\n";
             file << "tercera línea\n";
@@ -29,8 +29,9 @@ void crearArchivos1(string directorio){//creacion de archivos pares
     }
 
 
-    void agregarTexto(string directorio){
+    void agregarTexto(){//se agregan textos a los archivos creados.
         ofstream archivo;
+        archivo.open("C:\\Users\\miran\\OneDrive\\Documentos\\par");
         archivo.open("files.txt", ios::app);
         if (archivo.is_open()) {
             archivo << "Este es un nuevo texto que se agrega al final del archivo." << endl;
